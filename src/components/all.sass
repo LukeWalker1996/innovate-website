@@ -1,11 +1,48 @@
 @import "~bulma/sass/utilities/initial-variables"
-
+@import "~bulma/bulma.sass"
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
+// VARIABLES
+
+$primary: #56ccf2;
+$primary-color: white;
+$secondary: #2f80ed;
+$secondary-color: black;
+
+
+// fonts
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Roboto+Mono&display=swap")
+
+html
+  font-family: "Roboto Mono", monospace !important
+body
+  font-family: "Roboto Mono", monospace !important
+label
+  font-family: "Roboto Mono", monospace !important
+button
+  font-family: "Roboto Mono", monospace !important
+form
+  font-family: "Roboto Mono", monospace !important
+div
+  font-family: "Roboto Mono", monospace !important
+span
+  font-family: "Roboto Mono", monospace !important
+a 
+  font-family: "Roboto Mono", monospace !important
+
+
+.brand-font 
+  font-family: "Pacifico", cursive !important
+
+.is-gradient 
+  display: flex
+  background: linear-gradient(to right, $primary, $secondary)
+  color: $primary-color
+
+
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
